@@ -12,7 +12,7 @@ function fetch(){
 
             tbval.rows[i].cells[0].innerHTML = data['Countries'][i - 1]['Country'];
 
-            tbval.rows[i].cells[0].style.background = '#7a4a91';
+            tbval.rows[i].cells[0].style.background = '#77acf1';
             tbval.rows[i].cells[0].style.color = '#fff';
 
 
@@ -21,7 +21,7 @@ function fetch(){
 
             tbval.rows[i].cells[1].innerHTML = data['Countries'][i - 1]['TotalConfirmed'];
 
-            tbval.rows[i].cells[1].style.background = '#4bb7d8';
+            tbval.rows[i].cells[1].style.background = '#e1701a';
 
 
 
@@ -29,7 +29,7 @@ function fetch(){
 
             tbval.rows[i].cells[2].innerHTML = data['Countries'][i - 1]['NewConfirmed'];
 
-            tbval.rows[i].cells[2].style.background = '#4bb7d8';
+            tbval.rows[i].cells[2].style.background = '#ff9a8c';
 
 
 
@@ -37,7 +37,7 @@ function fetch(){
 
             tbval.rows[i].cells[3].innerHTML = data['Countries'][i - 1]['TotalRecovered'];
 
-            tbval.rows[i].cells[3].style.background = '#f36e23';
+            tbval.rows[i].cells[3].style.background = '#edffa9';
 
 
 
@@ -45,7 +45,7 @@ function fetch(){
 
             tbval.rows[i].cells[4].innerHTML = data['Countries'][i - 1]['NewRecovered'];
 
-            tbval.rows[i].cells[4].style.background = '#4bb7d8';
+            tbval.rows[i].cells[4].style.background = '#81b214';
 
 
 
@@ -54,7 +54,7 @@ function fetch(){
 
             tbval.rows[i].cells[5].innerHTML = data['Countries'][i - 1]['TotalDeaths'];
 
-            tbval.rows[i].cells[5].style.background = '#9cc850';
+            tbval.rows[i].cells[5].style.background = '#fb3640';
 
 
 
@@ -63,7 +63,7 @@ function fetch(){
 
             tbval.rows[i].cells[6].innerHTML = data['Countries'][i - 1]['NewDeaths'];
 
-            tbval.rows[i].cells[6].style.background = '#f36e23';
+            tbval.rows[i].cells[6].style.background = '#ff7171';
 
           }
         }
